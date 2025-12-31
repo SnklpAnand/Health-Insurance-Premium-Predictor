@@ -34,7 +34,7 @@ with row1[0]:
 with row1[1]:
     number_of_dependants = st.number_input('Number of Dependants', min_value=0, step=1, max_value=20)
 with row1[2]:
-    income_lakhs = st.number_input('Income in Lakhs)', step=1, min_value=0, max_value=200)
+    income_lakhs = st.number_input('Income in Lakhs'), step=1, min_value=0, max_value=200)
 
 with row2[0]:
     genetical_risk = st.number_input('Genetical Risk', step=1, min_value=0, max_value=5)
